@@ -2,7 +2,8 @@ import React from 'react';
 import SectionTitle from './SectionTitle';
 import { personalInfo, education } from '../data/portfolioData.jsx';
 import { motion } from 'framer-motion';
-import { FaUniversity, FaSchool } from 'react-icons/fa'; // Example icons
+import { FaUniversity, FaSchool } from 'react-icons/fa';
+// import profiePic from "../assets/Towsif Pic.jpeg";
 
 const cardVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -33,7 +34,7 @@ const About = () => {
             Hello! I'm Towsif, a driven Full Stack Developer with a strong foundation in computer science and a knack for crafting efficient, user-centric applications. My journey into tech is fueled by a desire to learn, innovate, and contribute to projects that make a difference. I thrive in collaborative environments and am always excited to tackle new challenges.
           </p>
           {/* Optional: Add a profile image here */}
-          {/* <img src={profilePlaceholder} alt="Aditi Arya" className="w-40 h-40 rounded-full mx-auto my-6 border-4 border-accent-1" /> */}
+          {/* <img src={profiePic} alt="Abdullah Al Towsif" className="w-40 h-40 object-cover rounded-full mx-auto my-6 border-4 border-accent-1" /> */}
         </motion.div>
 
         <h3 className="text-2xl font-semibold text-center text-accent-1 mb-8 font-mono">Education</h3>

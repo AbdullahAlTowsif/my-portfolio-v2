@@ -67,9 +67,10 @@ const Hero = () => {
             href={personalInfo.resumeLink}
             target="_blank"
             rel="noopener noreferrer"
+            download={"/Abdullah Al Towsif_Resume.pdf"}
             className="px-8 py-3 font-mono text-lg border-2 border-accent-1 text-accent-1 rounded-md hover:bg-accent-1 hover:text-primary-bg transition-all duration-300 flex items-center shadow-lg hover:shadow-accent-1/30"
           >
-            <FaDownload className="mr-2" /> Download CV
+            <FaDownload className="mr-2" /> Download Resume
           </a>
         </motion.div>
 

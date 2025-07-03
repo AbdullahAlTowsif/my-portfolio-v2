@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaReact, FaNodeJs, FaDatabase, FaCode, FaHtml5, FaCss3Alt, FaWordpress, FaFigma } from 'react-icons/fa'; // Example icons
-import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiJavascript, SiTypescript, SiCplusplus, SiPython, SiDaisyui, SiBootstrap } from 'react-icons/si'; // More specific tech icons
+import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiJavascript, SiTypescript, SiCplusplus, SiPython, SiDaisyui, SiBootstrap, SiRedux, SiMongoose } from 'react-icons/si'; // More specific tech icons
 
 export const personalInfo = {
   name: "Abdullah Al Towsif",
@@ -36,7 +36,7 @@ export const education = [
 export const projects = [
   {
     title: "eduHive",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB"],
+    tech: ["React JS", "Node.js", "Express.js", "MongoDB", "JWT", "Firebase", "Stripe", "Tanstack Query"],
     description: "EduHive is a platform designed to enhance interactions between educational institutions, tutors, and students. The system streamlines class management, scheduling, and skill-based learning in an accessible and efficient manner. Users can enroll in courses, manage study materials, and interact with tutors in a structured learning environment.",
     date: "January 2025",
     githubLink: "https://github.com/AbdullahAlTowsif/eduHive-client", // Replace with actual link
@@ -46,7 +46,7 @@ export const projects = [
   },
   {
     title: "GroupStudy",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB"],
+    tech: ["React JS", "Node.js", "Express.js", "MongoDB", "Firebase", "JWT"],
     description: "The Online Group-Study platform is designed to help students study collaboratively in virtual study groups. It enables users to join or create study groups based on subjects, schedule study sessions, and share study materials. The goal of this platform is to enhance productivity, make studying more interactive, and provide a supportive learning environment.",
     date: "December 2024",
     githubLink: "https://github.com/AbdullahAlTowsif/group-study-client", // Replace with actual link
@@ -56,7 +56,7 @@ export const projects = [
   },
   {
     title: "CROWDCUBE",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB"],
+    tech: ["React JS", "Node.js", "Express.js", "MongoDB", "Firebase", "JWT"],
     description: "Crowdcube is an equity crowdfunding platform designed that allows individuals to invest in startups and early-stage businesses in exchange for equity.",
     date: "December 2024",
     githubLink: "https://github.com/AbdullahAlTowsif/crowd-funding-client",
@@ -74,15 +74,17 @@ export const skills = {
     { name: "TypeScript", icon: <SiTypescript /> },
     { name: "HTML5", icon: <FaHtml5 /> },
     { name: "CSS3", icon: <FaCss3Alt /> },
-    { name: "SQL", icon: <FaDatabase /> },
+    { name: "MySQL", icon: <FaDatabase /> },
   ],
   frameworksAndLibraries: [
     { name: "React JS", icon: <FaReact /> },
+    { name: "Redux", icon: <SiRedux /> },
     { name: "Node JS", icon: <FaNodeJs /> },
     { name: "Express JS", icon: <SiExpress /> },
-    { name: "Tailwind CSS", icon: <SiTailwindcss /> }, // You are using it!
-    { name: "Daisy UI", icon: <SiDaisyui /> }, // You are using it!
-    { name: "Bootstrap", icon: <SiBootstrap /> }, // You are using it!
+    { name: "Mongoose", icon: <SiMongoose /> },
+    { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+    { name: "Daisy UI", icon: <SiDaisyui /> },
+    { name: "Bootstrap", icon: <SiBootstrap /> },
   ],
   toolsAndPlatforms: [
     { name: "MongoDB", icon: <SiMongodb /> },
@@ -90,15 +92,16 @@ export const skills = {
     { name: "Git & GitHub", icon: <FaGithub /> },
     { name: "VS Code", icon: <FaCode /> }, // Or a more specific icon
     { name: "Postman", icon: <FaCode /> }, // Placeholder icon
-    { name: "Google Cloud Platform", icon: <FaCode /> }, // Placeholder icon
+    // { name: "Google Cloud Platform", icon: <FaCode /> },
   ],
   coreCompetencies: [
     "Problem Solving",
     "Presentations",
+    "Team Working"
     // "Oratory",
     // "Team Leadership",
     // "Event Hosting",
-    "Agile Methodologies"
+    // "Agile Methodologies"
   ]
 };
 
