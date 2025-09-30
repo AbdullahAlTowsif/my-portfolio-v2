@@ -1,5 +1,6 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaReact, FaNodeJs, FaDatabase, FaCode, FaHtml5, FaCss3Alt, FaWordpress, FaFigma } from 'react-icons/fa'; // Example icons
-import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiJavascript, SiTypescript, SiCplusplus, SiPython, SiDaisyui, SiBootstrap, SiRedux, SiMongoose } from 'react-icons/si'; // More specific tech icons
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaReact, FaNodeJs, FaDatabase, FaCode, FaHtml5, FaCss3Alt } from 'react-icons/fa';
+import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiJavascript, SiTypescript, SiCplusplus, SiPython, SiDaisyui, SiBootstrap, SiRedux, SiMongoose, SiShadcnui, SiPostgresql } from 'react-icons/si';
+import { RiNextjsFill } from "react-icons/ri";
 
 export const personalInfo = {
   name: "Abdullah Al Towsif",
@@ -7,9 +8,9 @@ export const personalInfo = {
   email: "abdullah.al.towsif2002@gmail.com",
   linkedin: "https://www.linkedin.com/in/abdullah-al-towsif-1528ba345/",
   github: "https://github.com/AbdullahAlTowsif",
-  resumeLink: "/Abdullah Al Towsif_Resume.pdf", // Make sure your resume is in public/
+  resumeLink: "/Abdullah Al Towsif_Resume.pdf",
   bio: "Innovative Full Stack Developer passionate about creating seamless and impactful web solutions. Eager to leverage modern technologies to solve real-world problems and contribute to dynamic team environments.",
-  shortBio: "I build things for the web." // For Hero section
+  shortBio: "I build things for the web."
 };
 
 export const education = [
@@ -55,13 +56,13 @@ export const projects = [
     icon: <FaReact size={24} className="text-accent-1"/>
   },
   {
-    title: "CROWDCUBE",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB", "Firebase", "JWT"],
-    description: "Crowdcube is an equity crowdfunding platform designed that allows individuals to invest in startups and early-stage businesses in exchange for equity.",
-    date: "December 2024",
-    githubLink: "https://github.com/AbdullahAlTowsif/crowd-funding-client",
-    liveLink: "https://crowd-funding-ae5c8.web.app/",
-    category: "MERN Stack",
+    title: "Ride Booking",
+    tech: ["React JS", "Redux Toolkit / RTK Query", " React Hook Form", "Express.js", "MongoDB (Mongoose)", "OAuth 2.0 with Passport.js", "JWT", "Shadcn"],
+    description: "A ride booking platform built with modern technologies. This project provides a secure, scalable, and user-friendly system for riders and drivers to connect and manage ride bookings efficiently.",
+    date: "September 2025",
+    githubLink: "https://github.com/AbdullahAlTowsif/ride-booking-system-frontend",
+    liveLink: "https://ride-booking-system-frontend.vercel.app/",
+    category: "Full Stack",
     icon: <FaReact size={24} className="text-accent-1"/>
   },
 ];
@@ -79,15 +80,18 @@ export const skills = {
   frameworksAndLibraries: [
     { name: "React JS", icon: <FaReact /> },
     { name: "Redux", icon: <SiRedux /> },
+    { name: "Next JS", icon: <RiNextjsFill /> },
     { name: "Node JS", icon: <FaNodeJs /> },
     { name: "Express JS", icon: <SiExpress /> },
     { name: "Mongoose", icon: <SiMongoose /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+    { name: "Shadcn", icon: <SiShadcnui /> },
     { name: "Daisy UI", icon: <SiDaisyui /> },
     { name: "Bootstrap", icon: <SiBootstrap /> },
   ],
   toolsAndPlatforms: [
     { name: "MongoDB", icon: <SiMongodb /> },
+    { name: "PostgreSQL", icon: <SiPostgresql /> },
     { name: "Firebase", icon: <SiFirebase /> },
     { name: "Git & GitHub", icon: <FaGithub /> },
     { name: "VS Code", icon: <FaCode /> }, // Or a more specific icon
