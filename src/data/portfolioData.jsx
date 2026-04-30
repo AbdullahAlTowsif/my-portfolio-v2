@@ -1,5 +1,5 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaReact, FaNodeJs, FaDatabase, FaCode, FaHtml5, FaCss3Alt } from 'react-icons/fa';
-import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiJavascript, SiTypescript, SiCplusplus, SiPython, SiDaisyui, SiBootstrap, SiRedux, SiMongoose, SiShadcnui, SiPostgresql } from 'react-icons/si';
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaReact, FaNodeJs, FaDatabase, FaCode, FaHtml5, FaCss3Alt, FaDocker } from 'react-icons/fa';
+import { SiExpress, SiMongodb, SiFirebase, SiTailwindcss, SiJavascript, SiTypescript, SiCplusplus, SiPython, SiDaisyui, SiBootstrap, SiRedux, SiMongoose, SiShadcnui, SiPostgresql, SiPrisma  } from 'react-icons/si';
 import { RiNextjsFill } from "react-icons/ri";
 
 export const personalInfo = {
@@ -18,7 +18,7 @@ export const education = [
     institution: "National Institute of Textile Engineering and Research",
     degree: "Bachelor of Science in Computer Science and Engineering",
     duration: "Feb 2022 – Present",
-    score: "CGPA: 3.13/4",
+    score: "CGPA: 3.21/4",
   },
   {
     institution: "Cda Public School & College",
@@ -36,24 +36,14 @@ export const education = [
 
 export const projects = [
   {
-    title: "eduHive",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB", "JWT", "Firebase", "Stripe", "Tanstack Query"],
-    description: "EduHive is a platform designed to enhance interactions between educational institutions, tutors, and students. The system streamlines class management, scheduling, and skill-based learning in an accessible and efficient manner. Users can enroll in courses, manage study materials, and interact with tutors in a structured learning environment.",
-    date: "January 2025",
-    githubLink: "https://github.com/AbdullahAlTowsif/eduHive-client", // Replace with actual link
-    liveLink: "https://edu-hive-3c8bd.web.app/", // Replace with actual link if available
-    category: "MERN Stack",
-    icon: <FaReact size={24} className="text-accent-1"/>
-  },
-  {
-    title: "GroupStudy",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB", "Firebase", "JWT"],
-    description: "The Online Group-Study platform is designed to help students study collaboratively in virtual study groups. It enables users to join or create study groups based on subjects, schedule study sessions, and share study materials. The goal of this platform is to enhance productivity, make studying more interactive, and provide a supportive learning environment.",
-    date: "December 2024",
-    githubLink: "https://github.com/AbdullahAlTowsif/group-study-client", // Replace with actual link
-    liveLink: "https://group-study-1086a.web.app/",
-    category: "MERN Stack",
-    icon: <FaReact size={24} className="text-accent-1"/>
+    title: "Events Management",
+    tech: ["TypeScript", "Next.js(16)", "Node.js", "Express.js", "PostgreSQL (Prisma)", "Stripe", "Tailwind CSS & Shadcn", "JWT", "ZOD"],
+    description: "Events is a full-stack, role-based event management platform with secure authentication, host applications, and admin moderation. It enables end-to-end event creation, participation, and payment tracking using Prisma and PostgreSQL, along with a secure transactional approval workflow for reliable host onboarding.",
+    date: "December 2025",
+    githubLink: "https://github.com/AbdullahAlTowsif/events-activities-frontend",
+    liveLink: "https://events-activities-frontend.vercel.app/",
+    category: "Full Stack",
+    icon: <RiNextjsFill size={24} className="text-accent-1"/>
   },
   {
     title: "Ride Booking",
@@ -65,6 +55,16 @@ export const projects = [
     category: "Full Stack",
     icon: <FaReact size={24} className="text-accent-1"/>
   },
+  {
+    title: "eduHive",
+    tech: ["React JS", "Node.js", "Express.js", "MongoDB", "JWT", "Firebase", "Stripe", "Tanstack Query"],
+    description: "EduHive is a platform designed to enhance interactions between educational institutions, tutors, and students. The system streamlines class management, scheduling, and skill-based learning in an accessible and efficient manner. Users can enroll in courses, manage study materials, and interact with tutors in a structured learning environment.",
+    date: "January 2025",
+    githubLink: "https://github.com/AbdullahAlTowsif/eduHive-client", // Replace with actual link
+    liveLink: "https://edu-hive-3c8bd.web.app/", // Replace with actual link if available
+    category: "MERN Stack",
+    icon: <FaReact size={24} className="text-accent-1"/>
+  }
 ];
 
 export const skills = {
@@ -80,10 +80,12 @@ export const skills = {
   frameworksAndLibraries: [
     { name: "React JS", icon: <FaReact /> },
     { name: "Redux", icon: <SiRedux /> },
+    { name: "Zustand", icon: <SiRedux /> },
     { name: "Next JS", icon: <RiNextjsFill /> },
     { name: "Node JS", icon: <FaNodeJs /> },
     { name: "Express JS", icon: <SiExpress /> },
     { name: "Mongoose", icon: <SiMongoose /> },
+    { name: "Prisma", icon: <SiPrisma  /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss /> },
     { name: "Shadcn", icon: <SiShadcnui /> },
     { name: "Daisy UI", icon: <SiDaisyui /> },
@@ -96,7 +98,7 @@ export const skills = {
     { name: "Git & GitHub", icon: <FaGithub /> },
     { name: "VS Code", icon: <FaCode /> }, // Or a more specific icon
     { name: "Postman", icon: <FaCode /> }, // Placeholder icon
-    // { name: "Google Cloud Platform", icon: <FaCode /> },
+    { name: "Docker", icon: <FaDocker /> },
   ],
   coreCompetencies: [
     "Problem Solving",
